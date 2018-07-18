@@ -1,0 +1,34 @@
+# So You Want to Be Woke Config
+
+title: So You Want To Be Woke
+description: >- # this means to ignore newlines until "baseurl:"
+  The path to becoming woke is hard; this site’s meant to help you get there.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.soyouwanttobewoke.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: adicu
+github_username:  woke
+resource_images: ['https://source.unsplash.com/600x300/?african%20american',
+  'https://source.unsplash.com/600x300/?landscape',
+  'https://source.unsplash.com/600x300/?nature,water',
+  'https://source.unsplash.com/600x300/?urban',
+  'https://source.unsplash.com/600x300/?female',
+  'https://source.unsplash.com/600x300/?team',
+  'https://source.unsplash.com/600x300/?business',
+  'https://source.unsplash.com/600x300/?city',
+  'https://source.unsplash.com/600x300/?love',
+  'https://source.unsplash.com/600x300/?architecture',
+  'https://source.unsplash.com/600x300/?woman',
+  'https://source.unsplash.com/600x300/?africa',
+  'https://source.unsplash.com/600x300/?afro',
+  'https://source.unsplash.com/600x300/?culture',
+  'https://source.unsplash.com/600x300/?disability',
+  'https://source.unsplash.com/600x300/?black%20skin',
+  'https://source.unsplash.com/600x300/?african%20american,family',
+  ]
+  
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
